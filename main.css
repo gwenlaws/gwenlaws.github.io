@@ -1,0 +1,211 @@
+*{
+    font-family:'open sans', sans-serif;
+    padding:5px;
+}
+body{
+    background-color:#384A57;
+}
+.nav{
+    text-align:center;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    margin:-23px;
+    background-color:#384A57;
+    float:top;
+    margin-bottom:365px;
+}
+.nav2{
+    text-align:center;
+    margin:-23px;
+    background-color:#384A57;
+    float:top;
+}
+.landing{
+    text-align:center;
+    color:#7e7f9a;
+    margin:-23px;
+    padding-top:210px;
+    padding-bottom:15px;
+}
+.name{
+    background-color:#384A57;
+    font-size:120px;
+}
+h1{
+    display:inline; 
+    text-align:left;
+    font-family:'Poppins', sans-serif;
+}
+h2{
+    text-align:center;
+    size:35px;
+    padding-top:10px;
+}
+h3{
+    size:20px;
+}
+p{
+    font-size:50px;
+    padding-left:950px;
+}
+a{
+    text-decoration:none;
+    color:#7e7f9a;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    text-decoration:underline;
+}
+#home a:visited{
+    color:#4ecdc4;
+}
+#about a:visited{
+    color:#ff6b6b;
+}
+#portfolio a:visited{
+    color:#ffda3e;
+}
+#resume a:visited{
+    color:rgb(135, 121, 230);
+}
+img.ye{
+    width:400px;
+    padding-top:50px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+p{
+    font-size:25px;
+    padding-left:600px;
+    padding-bottom:200px;
+}
+#gwen{
+    float:left;
+    width:500px;
+    padding-top:50px;
+}
+#home{
+    font-size:45px;
+}
+#about{
+    font-size:45px;
+}
+#portfolio{
+    font-size:45px;
+}
+#contact{
+    text-align:center;
+    font-weight:150;
+    margin-bottom:-25px;
+}
+#resume{
+    padding-top:100px;
+    margin-bottom:-50px;
+    font-weight:600;
+}
+#svg{
+    width:90px;
+    margin-right:20px;
+}
+#portfolio1{
+    margin:-20px;
+    padding:10px;
+    background-color:#ffeecf;
+    display:grid;
+    grid-template-areas:
+    'a b'
+    'd c'
+    'e f'
+    'h g'
+    'i j';
+}
+h4{
+    display:block;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size:25px;
+}
+#gc{grid-area:a;}
+#gc1{grid-area:b;}
+#mc{grid-area:c;}
+#mc1{grid-area:d;}
+#things{grid-area:e;}
+#things1{grid-area:f;}
+#faces{grid-area:g;}
+#faces1{grid-area:h;}
+#sc{grid-area:i;}
+#sc1{grid-area:j;}
+.about{
+    background-color:#ffeecf;
+}
+#content{
+    font-size:30px;
+    color:white;
+}
+@media only screen and (max-width: 900px){ /*mobile*/
+    .name{
+        font-size:60px;
+    }
+    #home{
+        font-size:30px;
+    }
+    #about{
+        font-size:30px;
+    }
+    #portfolio{
+        font-size:30px;
+    }
+    #gwen{
+        margin: 0 auto;
+        width:100%;
+    }
+    #svg{
+        float:top;
+        padding-top:0;
+        margin-right:5px;
+    }
+    p{
+        padding-left:0px;
+        margin-top:0;
+        padding-bottom:0px;
+    }
+    h2{
+        margin-bottom:0;
+        padding-top:0;
+        size:15px;
+    }
+    #portfolio1{
+        display:grid;
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        'g'
+        'h'
+        'i'
+        'j';
+        text-align:center;
+    }
+    img.ye{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+/* fix landing gwen laws
+make pics wider
+fix link colors
+
+about me: pic, meet the designer, info, contact info
+fix resume
+fix resume link
+*/
