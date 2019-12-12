@@ -14,6 +14,7 @@ body{
     background-color:#384A57;
     float:top;
     margin-bottom:365px;
+    font-family:'Poppins', sans-serif;
 }
 .nav2{
     text-align:center;
@@ -130,6 +131,7 @@ h4{
     margin-top:auto;
     margin-bottom:auto;
     font-size:25px;
+    font-weight:150;
 }
 #gc{grid-area:a;}
 #gc1{grid-area:b;}
