@@ -1,1 +1,2 @@
-I struggled with getting the css grid to work. I had extra parenthesis around the columns declaration, getting rid of them fixed the problem right away. I could not figure out how to properly link fonts, but it was explained to me and i fixed the probelm. I unfortunately could not figure out how to animate anything to put it on the page. 
+I originally wanted to use <hr> for the dividing lines, but they would only make vertical lines. I used div shapes instead.
+There is still a problem with responsiveness, as there is no mobile version, and if the page is resized, all of the text in the green box on the left will overlap with the text on the right. 
