@@ -1,2 +1,1 @@
-# boilerPlate
-basic starting file structure for Umass Dartmouth
+My website created for web typography at umass dartmouth in 2019.
