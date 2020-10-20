@@ -32,10 +32,10 @@
         </section>
         <section class="nav">
             <h1 id="home"><a href="index.html">home</a></h1>
-            <h1 id="about"><a href="#content">about me</a></h1>
-            <h1 id="portfolio"><a href="#portfolio1">portfolio</a></h1>
+            <h1 id="about"><a href="#about">about me</a></h1>
+            <h1 id="portfolio"><a href="#portfolio">portfolio</a></h1>
         </section>
-        <section id="portfolio1">
+        <section id="portfolio">
             <img class="ye" id="gc" src="assets/gamecube.jpg">
             <h4 id="gc1">this was a project for axd 251. the task was to
                 take an object used every day and recreate it in illustrator,
@@ -67,7 +67,7 @@
                 good and the bad results from that week. 
             </h4>
         </section>
-        <section id="content">
+        <section id="about">
             <img src="assets/s.jpg" alt="pic of me" id="gwen">
             <h2>meet the designer</h2>
             <p>gwen is currently a student in cvpa at umass 
